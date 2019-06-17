@@ -37,13 +37,20 @@
           <v-alert
             :value="true"
             dismissible
+            outline
             type="success"
             :class="showSuccess"
           >
-            This is a success alert.
+            Success
           </v-alert>
-          <v-alert :value="true" dismissible type="error" :class="showError">
-            This is a error alert.
+          <v-alert
+            outline
+            :value="true"
+            dismissible
+            type="error"
+            :class="showError"
+          >
+            {{ errorMsg }}
           </v-alert>
         </v-card-text>
       </v-card>
