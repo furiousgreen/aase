@@ -1,5 +1,6 @@
 # Go binary
 aase
+*.apk
 #vim swap file
 *.swp
 *.swo
