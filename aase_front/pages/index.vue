@@ -93,7 +93,7 @@ export default {
       formData.append('file', this.file)
 
       this.$axios
-        .$post('/aase/upload', formData, {
+        .$post('https://aase.dallarosa.me/aase/upload', formData, {
           headers: {
             'Content-Type': 'multipart/form-data'
           }
